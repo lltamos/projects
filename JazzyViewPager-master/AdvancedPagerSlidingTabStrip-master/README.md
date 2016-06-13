@@ -10,7 +10,6 @@ Android AdvancedPagerSlidingTabStrip是一种Android平台的导航控件，完�
  * 支持自由设置小圆点、tab大小和位置等设置
  * 支持实现如：微博等不均匀Tab的APP风格，并支持滑动
 
-Project site： <https://github.com/HomHomLin/AdvancedPagerSlidingTabStrip>.
 
 最新版本:v1.4.0
 
@@ -23,24 +22,6 @@ Project site： <https://github.com/HomHomLin/AdvancedPagerSlidingTabStrip>.
 ![p3](https://raw.githubusercontent.com/HomHomLin/AdvancedPagerSlidingTabStrip/master/Pic/Screen_20160216163452.png)
 
 ![p4](https://raw.githubusercontent.com/HomHomLin/AdvancedPagerSlidingTabStrip/master/Pic/Screen_20160411141706.png)
-
-##导入项目
-
-**Gradle dependency:**
-``` groovy
-compile 'homhomlin.lib:apsts:1.4.0'
-```
-
-or
-
-**Maven dependency:**
-``` xml
-<dependency>
-  <groupId>homhomlin.lib</groupId>
-  <artifactId>apsts</artifactId>
-  <version>1.4.0</version>
-</dependency>
-```
 
 
 ##用法
@@ -195,12 +176,9 @@ public Drawable getTipsDrawable(int position);
  * `apTabTextSelectColor` 你所选择的那个tab的颜色
  * `apTabDrawMode` 绘制模式，text或者normal，用于是否将下划线绘制为跟随TextView
 
-## Developed By
 
- * Linhonghong - <linhh90@163.com>
 
-##License
-Copyright 2016 LinHongHong
+
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
