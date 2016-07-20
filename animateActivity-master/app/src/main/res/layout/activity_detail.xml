@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/detail_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#56000000" />
+
+        <TextView
+            android:id="@+id/detail_bg1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"
+            android:background="#ffffff"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#56000000"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:src="@mipmap/question_close"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/push_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="6dp"
+                android:text="@string/d"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:text="1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n1\n2\n1\n2\n1\n2\n1\n2\n1\n2\n1\n2\n"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_margin="6dp"
+            android:src="@mipmap/ic_launcher"
+            android:visibility="gone" />
+    </FrameLayout>
+</android.support.v4.widget.NestedScrollView>
